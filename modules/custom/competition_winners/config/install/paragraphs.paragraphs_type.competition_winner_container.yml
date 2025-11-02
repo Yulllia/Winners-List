@@ -1,0 +1,10 @@
+uuid: be21d842-4448-44e2-8c5a-eb83646e9742
+langcode: en
+status: true
+dependencies: {  }
+id: competition_winner_container
+label: 'Competition Winner Container'
+icon_uuid: null
+icon_default: null
+description: 'Use this container to showcase up to 3 competition winners.'
+behavior_plugins: {  }

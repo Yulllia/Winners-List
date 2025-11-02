@@ -1,0 +1,10 @@
+{# paragraph--competition-winner-container.html.twig #}
+{# Renders the container with a list of single winners #}
+{{ attach_library('competition_winners/competition_winners') }}
+
+<div class="competition-winners {{ winners|length == 3 ? 'three-winners' : '' }}">
+      {% for winner in winners %}
+        {% include '@competition_winners/paragraph--single-winner-item.html.twig' with {'paragraph': winner} %}
+      {% endfor %}
+</div>
+

@@ -1,0 +1,19 @@
+uuid: 7ead7b36-0cbc-4b6f-b762-20326da1a418
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_description
+    - paragraphs.paragraphs_type.single_winner_item
+id: paragraph.single_winner_item.field_description
+field_name: field_description
+entity_type: paragraph
+bundle: single_winner_item
+label: Description
+description: 'Provide a short description or biography about the winner.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

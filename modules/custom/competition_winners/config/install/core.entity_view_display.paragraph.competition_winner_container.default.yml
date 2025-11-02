@@ -1,0 +1,24 @@
+uuid: 917083e3-8787-445e-a2ce-4e18f96ea3a7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.competition_winner_container.field_winners_list
+    - paragraphs.paragraphs_type.competition_winner_container
+  module:
+    - entity_reference_revisions
+id: paragraph.competition_winner_container.default
+targetEntityType: paragraph
+bundle: competition_winner_container
+mode: default
+content:
+  field_winners_list:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

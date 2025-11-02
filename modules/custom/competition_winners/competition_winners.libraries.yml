@@ -1,0 +1,9 @@
+competition_winners:
+  css:
+    theme:
+      css/competition-winners.css: {}
+  js:
+    js/winner-tooltips.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

@@ -1,0 +1,12 @@
+// _mixins.scss
+@mixin winner-first-style {
+  justify-self: center;
+  background-color: #ffe599;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+@mixin elipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: help;
+}

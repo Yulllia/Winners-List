@@ -1,0 +1,52 @@
+uuid: 4c5ed4bb-2463-42c3-a42c-e560dae9a5d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.single_winner_item.field_description
+    - field.field.paragraph.single_winner_item.field_image
+    - field.field.paragraph.single_winner_item.field_subtitle
+    - field.field.paragraph.single_winner_item.field_title
+    - paragraphs.paragraphs_type.single_winner_item
+  module:
+    - image
+id: paragraph.single_winner_item.default
+targetEntityType: paragraph
+bundle: single_winner_item
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_subtitle:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

@@ -1,0 +1,10 @@
+uuid: bcfceee6-2fc2-4d0e-abfd-80a0c0d74909
+langcode: en
+status: true
+dependencies: {  }
+id: single_winner_item
+label: 'Single Winner Item'
+icon_uuid: null
+icon_default: null
+description: 'This is the nested paragraph used inside your Competition Winner Container. Each Single Winner represents one competition winner. '
+behavior_plugins: {  }

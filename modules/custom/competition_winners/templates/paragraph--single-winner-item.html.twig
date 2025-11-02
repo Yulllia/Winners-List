@@ -1,0 +1,14 @@
+{# Single winner paragraph #}
+<div class="winner {% if loop.first %}winner--first{% endif %}">
+	<h3 class="winner-title">{{ paragraph.field_title.value }}</h3>
+	{% if paragraph.field_image is not empty %}
+		{% for image in paragraph.field_image %}
+			<img class="winner-image" src="{{ file_url(image.entity.uri.value) }}" alt="{{ image.alt|default('Winner image') }}"/>
+		{% endfor %}
+	{% endif %}
+	<p class="winner-subtitle">{{ paragraph.field_subtitle.value }}</p>
+	{% if paragraph.field_description is not empty %}
+		<p class="winner-description">{{ paragraph.field_description.value }}</p>
+	{% endif %}
+	<p class="winner-date">{{ paragraph.created.value|date("d-m-Y") }}</p>
+</div>

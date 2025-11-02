@@ -1,0 +1,39 @@
+# Composer vendor folder
+vendor/
+
+# Drupal core
+core/
+
+# DDEV environment (optional)
+.ddev/
+
+# Sensitive configuration files
+sites/*/settings*.php
+sites/*/services*.yml
+
+# User-generated content
+sites/*/files/
+sites/*/private/
+
+# Build artifacts and temporary files
+*.log
+*.tmp
+*.bak
+
+# Node / npm
+node_modules/
+package-lock.json
+
+# SimpleTest environment
+sites/simpletest/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+
+# Cache directories
+sites/*/cache/
+
+# PHPUnit configuration
+phpunit.xml

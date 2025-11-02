@@ -1,0 +1,19 @@
+uuid: f8e02057-0d7f-4d1a-88c1-81a2b33bc1e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subtitle
+    - paragraphs.paragraphs_type.single_winner_item
+id: paragraph.single_winner_item.field_subtitle
+field_name: field_subtitle
+entity_type: paragraph
+bundle: single_winner_item
+label: Subtitle
+description: 'Add the position, price or short rule.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
