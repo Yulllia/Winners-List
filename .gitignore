@@ -22,7 +22,6 @@ sites/*/private/
 
 # Node / npm
 node_modules/
-package-lock.json
 
 # SimpleTest environment
 sites/simpletest/
